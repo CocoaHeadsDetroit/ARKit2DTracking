@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04BCE861F00C80700AAFBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04BCE851F00C80700AAFBEB /* AppDelegate.swift */; };
+		F04BCE8A1F00C80700AAFBEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04BCE891F00C80700AAFBEB /* ViewController.swift */; };
+		F04BCE8D1F00C80700AAFBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04BCE8B1F00C80700AAFBEB /* Main.storyboard */; };
+		F04BCE8F1F00C80700AAFBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04BCE8E1F00C80700AAFBEB /* Assets.xcassets */; };
+		F04BCE921F00C80700AAFBEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04BCE901F00C80700AAFBEB /* LaunchScreen.storyboard */; };
+		F0E4CEC31F037FB400E40956 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E4CEC21F037F0300E40956 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F04BCE821F00C80700AAFBEB /* ARKit2DTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit2DTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04BCE851F00C80700AAFBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04BCE891F00C80700AAFBEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04BCE8C1F00C80700AAFBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04BCE8E1F00C80700AAFBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04BCE911F00C80700AAFBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F04BCE931F00C80700AAFBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E4CEC21F037F0300E40956 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04BCE7F1F00C80700AAFBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04BCE791F00C80700AAFBEB = {
+			isa = PBXGroup;
+			children = (
+				F04BCE841F00C80700AAFBEB /* CocoaHeadDemo */,
+				F04BCE831F00C80700AAFBEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04BCE831F00C80700AAFBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04BCE821F00C80700AAFBEB /* ARKit2DTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04BCE841F00C80700AAFBEB /* CocoaHeadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F04BCE851F00C80700AAFBEB /* AppDelegate.swift */,
+				F04BCE891F00C80700AAFBEB /* ViewController.swift */,
+				F04BCE8B1F00C80700AAFBEB /* Main.storyboard */,
+				F0E4CEC21F037F0300E40956 /* Models.scnassets */,
+				F04BCE8E1F00C80700AAFBEB /* Assets.xcassets */,
+				F04BCE901F00C80700AAFBEB /* LaunchScreen.storyboard */,
+				F04BCE931F00C80700AAFBEB /* Info.plist */,
+			);
+			path = CocoaHeadDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04BCE811F00C80700AAFBEB /* ARKit2DTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04BCE961F00C80700AAFBEB /* Build configuration list for PBXNativeTarget "ARKit2DTracking" */;
+			buildPhases = (
+				F04BCE7E1F00C80700AAFBEB /* Sources */,
+				F04BCE7F1F00C80700AAFBEB /* Frameworks */,
+				F04BCE801F00C80700AAFBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKit2DTracking;
+			productName = CocoaHeadDemo;
+			productReference = F04BCE821F00C80700AAFBEB /* ARKit2DTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04BCE7A1F00C80700AAFBEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Vectorform;
+				TargetAttributes = {
+					F04BCE811F00C80700AAFBEB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = F04BCE7D1F00C80700AAFBEB /* Build configuration list for PBXProject "ARKit2DTracking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04BCE791F00C80700AAFBEB;
+			productRefGroup = F04BCE831F00C80700AAFBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04BCE811F00C80700AAFBEB /* ARKit2DTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04BCE801F00C80700AAFBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04BCE921F00C80700AAFBEB /* LaunchScreen.storyboard in Resources */,
+				F0E4CEC31F037FB400E40956 /* Models.scnassets in Resources */,
+				F04BCE8F1F00C80700AAFBEB /* Assets.xcassets in Resources */,
+				F04BCE8D1F00C80700AAFBEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04BCE7E1F00C80700AAFBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04BCE8A1F00C80700AAFBEB /* ViewController.swift in Sources */,
+				F04BCE861F00C80700AAFBEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F04BCE8B1F00C80700AAFBEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04BCE8C1F00C80700AAFBEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F04BCE901F00C80700AAFBEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04BCE911F00C80700AAFBEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04BCE941F00C80700AAFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04BCE951F00C80700AAFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04BCE971F00C80700AAFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3F43CM6W7;
+				INFOPLIST_FILE = CocoaHeadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vectorform.cocoahead.qr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04BCE981F00C80700AAFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3F43CM6W7;
+				INFOPLIST_FILE = CocoaHeadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vectorform.cocoahead.qr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04BCE7D1F00C80700AAFBEB /* Build configuration list for PBXProject "ARKit2DTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04BCE941F00C80700AAFBEB /* Debug */,
+				F04BCE951F00C80700AAFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04BCE961F00C80700AAFBEB /* Build configuration list for PBXNativeTarget "ARKit2DTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04BCE971F00C80700AAFBEB /* Debug */,
+				F04BCE981F00C80700AAFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04BCE7A1F00C80700AAFBEB /* Project object */;
+}
