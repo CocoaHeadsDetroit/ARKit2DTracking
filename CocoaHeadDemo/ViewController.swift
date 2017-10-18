@@ -1,9 +1,9 @@
+// Copyright (c) 2016 Vectorform LLC
+// http://www.vectorform.com/
+// https://github.com/CocoaHeadsDetroit/ARKit2DTracking
 //
-//  ViewController.swift
-//  CocoaHeadDemo
-//
-//  Created by Jeff Meador on 6/26/17.
-//  Copyright © 2017 Vectorform. All rights reserved.
+// ARKit2DTracking
+// ViewController.swift
 //
 
 import UIKit
